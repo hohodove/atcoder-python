@@ -8,7 +8,7 @@ for i in range(N):
 pt, px, py = 0, 0, 0
 
 for i in range(N):
-  if (T[i]-pt) < (X[i]-px) + (Y[i]-py):
+  if abs(T[i]-pt) < abs(X[i]-px) + abs(Y[i]-py):
     print("No")
     exit(0)
   if (T[i] % 2 == 0) & ((X[i]+Y[i]) % 2 == 0):
