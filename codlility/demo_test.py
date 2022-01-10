@@ -1,14 +1,14 @@
-import sys
+// you can also use imports, for example:
+// import java.util.*;
 
-def main(lines):
-    # このコードは標準入力と標準出力を用いたサンプルコードです。
-    # このコードは好きなように編集・削除してもらって構いません。
-    # ---
-    # This is a sample code to use stdin and stdout.
-    # Edit and remove this code as you like.
+// you can write to stdout for debugging purposes, e.g.
+// System.out.println("this is a debug message");
 
-    for i, v in enumerate(lines):
-        print("Hello {}!".format(v))
+class Solution {
+    public int solution(int[] A) {
+        // write your code in Java SE 8
+    }
+}
 
 if __name__ == '__main__':
     lines = []
